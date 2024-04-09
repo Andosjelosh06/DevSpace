@@ -1,0 +1,45 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+body {
+    background-color: #FBFBFB;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: large;
+    font-weight: 10;
+}
+main {
+    text-align: center;
+}
+#velkommen {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+#tittel {
+    padding-top: 1rem;
+    font-size: 4rem;
+}
+#søk {
+    margin-top: 5rem;
+    width: 30rem;
+    padding: 1rem 0 1rem 0;
+    border: 1px solid black;
+    border-radius: 20px ;
+    background-color: #FBFBFB;
+}
+.filter {
+    padding-top: 2rem ;
+}
+button {
+    margin: 0 0.2rem 0 0.2rem;
+    font-size: 1.3rem;
+    padding: 0.4rem 1% 0.4rem 1%;
+    border-radius: 10px ;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 3px 1px 1px lightgray;
+}
