@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: #FBFBFB;
+    background-color: #E8F7F6;
 }
 h1 {
     text-align: center;
@@ -27,7 +27,7 @@ main {
     margin-top: 5rem;
     width: 30rem;
     padding: 1rem 0 1rem 0;
-    border: 1px solid black;
+    border: 2px solid gray;
     border-radius: 20px ;
     background-color: #FBFBFB;
 }
@@ -42,4 +42,22 @@ button {
     border: none;
     background-color: white;
     box-shadow: 2px 3px 1px 1px lightgray;
+}   
+.snippets {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-inline: 8%;
+}
+.innlegg {
+    padding: 1rem;
+    text-align: center;
+    min-width: 20rem;
+    max-width: 30rem;
+    margin: 1rem;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 3px 1px 1px lightgray;
+    border-radius: 10px ;
 }

@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevSpace</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">     <!-- linker til css -->
 </head>
 <body>
     <header>
-        <h1 id="velkommen" style="font-weight: 50;">Welcome to</h1>
-        <h1 id="tittel" style="font-family: 'Courier New', Courier, monospace;">&lt;DevSpace/&gt;</h1>
+       <h1 id="velkommen" style="font-weight: 50;">Welcome to</h1>  <!--Overskrift -->
+        <h1 id="tittel" style="font-family: 'Courier New', Courier, monospace;">&lt;DevSpace/&gt;</h1>  <!--Overskrift -->
     </header>
     <main>
-        <input type="search" id="søk" placeholder="Search...">
-        <div class="filter">
+         <input type="search" id="søk" placeholder="Search...">   <!--søkefelt -->
+        <div class="filter">   <!-- Knapper for å filtrere etter kodespråk -->
             <button><h2>JavaScript</h2></button>
             <button><h2>Python</h2></button>
             <button><h2>CSS</h2></button>
@@ -22,5 +22,19 @@
             <button><h2>C++</h2></button>
         </div>
     </main>
+    <div class="snippets">    <!-- småbiter med kode som andre har delt-->
+        <div class="innlegg">with open("handleliste.txt", "w") as liste: <br>
+            for item in shoppingList: <br>
+                liste.write(item + "\n")</div>
+        <div class="innlegg"></div>
+        <div class="innlegg"></div>
+        <div class="innlegg">with open("handleliste.txt", "w") as liste: <br>
+            for item in shoppingList: <br>
+                liste.write(item + "\n")</div>
+        <div class="innlegg"></div>
+        <div class="innlegg">with open("handleliste.txt", "w") as liste: <br>
+            for item in shoppingList: <br>
+                liste.write(item + "\n")</div>
+    </div>
 </body>
 </html>
